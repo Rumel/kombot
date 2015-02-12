@@ -63,3 +63,7 @@ Hubot is able to load scripts from third-party `npm` package. Check the package'
 3. Add the package name to `external-scripts.json` as a double quoted string
 
 You can review `external-scripts.json` to see what is included by default.
+
+# Environment Variables
+* `HEROKU_URL=http://my-company-slackbot.herokuapp.com`
+* `HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd`
