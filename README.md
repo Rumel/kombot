@@ -65,5 +65,15 @@ Hubot is able to load scripts from third-party `npm` package. Check the package'
 You can review `external-scripts.json` to see what is included by default.
 
 # Environment Variables
-* `HEROKU_URL=http://my-company-slackbot.herokuapp.com`
-* `HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd`
+* Jira.coffee
+  * `HUBOT_JIRA_URL`
+  * `HUBOT_JIRA_USER`
+  * `HUBOT_JIRA_PASSWORD`
+  * Optional environment variables:
+  * `HUBOT_JIRA_USE_V2` (defaults to "true", set to "false" for JIRA earlier than 5.0)
+  * `HUBOT_JIRA_MAXLIST`
+  * `HUBOT_JIRA_ISSUEDELAY`
+  * `HUBOT_JIRA_IGNOREUSERS`
+* Hubot Slack
+  * `HEROKU_URL=http://my-company-slackbot.herokuapp.com`
+  * `HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd`

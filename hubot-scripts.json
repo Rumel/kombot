@@ -1,3 +1,4 @@
 [
-  "httpcat.coffee"
+  "httpcat.coffee",
+  "jira.coffee"
 ]
