@@ -12,8 +12,8 @@
 #   hubot deployment - Returns the amount of days until deployment
 
 module.exports = (robot) ->
-
-  robot.respond /deploy(ment)?/i, (msg) ->
+ 
+  robot.respond /.*deploy(ment)?.*/i, (msg) ->
     deploymentDay = new Date("August 8, 2015 06:00:00")
     d = new Date()
     seconds = deploymentDay - d
