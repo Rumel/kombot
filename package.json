@@ -6,6 +6,7 @@
   "description": "A simple helpful robot for your Legion of Done",
   "dependencies": {
     "hubot": "^2.11.0",
+    "hubot-baseball": "^1.0.1",
     "hubot-business-cat": "^1.1.11",
     "hubot-darts": "^1.0.1",
     "hubot-diagnostics": "0.0.1",
