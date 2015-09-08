@@ -1,1 +1,1 @@
-hubot: bin/hubot -a slack -n legionbot
+web: bin/hubot -a slack -n kombot
