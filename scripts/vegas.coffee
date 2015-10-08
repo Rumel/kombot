@@ -11,13 +11,9 @@
 module.exports = (robot) ->
 
   robot.hear /vegas/i, (msg) ->
-    vegasDay = new Date("October 4, 2015 06:00:00")
+    oldDay = new Date("October 4, 2015 06:00:00")
+    newDay = new Date("October 10, 2015 06:00:00")
     d = new Date()
-    seconds = vegasDay - d
-    days = Math.floor(seconds / 1000 / 3600 / 24) + 1
-    if days > 1
-      msg.send(days + " days until Vegas")
-    else if days == 1
-      msg.send("1 day until Vegas")
-    else
-      msg.send "Vegas is now"
+
+    if d > oldDay && newDay > d
+      msg.send "I lost all of my money in Vegas. :sob:"
